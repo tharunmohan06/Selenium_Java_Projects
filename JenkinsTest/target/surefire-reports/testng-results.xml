@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="14300" started-at="2021-09-28T12:00:38 IST" finished-at="2021-09-28T12:00:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14300" started-at="2021-09-28T12:00:38 IST" finished-at="2021-09-28T12:00:52 IST">
+      <class name="com.ustglobal.JenkinsTest.GoogleTest">
+        <test-method status="PASS" signature="getGoogleTitle()[pri:0, instance:com.ustglobal.JenkinsTest.GoogleTest@18eed359]" name="getGoogleTitle" duration-ms="10789" started-at="2021-09-28T12:00:38 IST" finished-at="2021-09-28T12:00:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGoogleTitle -->
+      </class> <!-- com.ustglobal.JenkinsTest.GoogleTest -->
+      <class name="com.ustglobal.JenkinsTest.AmazonTest">
+        <test-method status="PASS" signature="getAmazonTitle()[pri:0, instance:com.ustglobal.JenkinsTest.AmazonTest@4b4523f8]" name="getAmazonTitle" duration-ms="14265" started-at="2021-09-28T12:00:38 IST" finished-at="2021-09-28T12:00:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmazonTitle -->
+      </class> <!-- com.ustglobal.JenkinsTest.AmazonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
