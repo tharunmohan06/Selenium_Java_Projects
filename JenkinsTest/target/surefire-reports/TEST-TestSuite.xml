@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.394" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.135" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="C:/Users/Tharun06/Documents/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Tharun06\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Tharun06\AppData\Local\Temp\surefire6196566107010489889\surefirebooter14604129153277427356.jar C:\Users\Tharun06\AppData\Local\Temp\surefire6196566107010489889 2021-09-28T12-30-59_687-jvmRun1 surefire12065905069785701453tmp surefire_02173324510336397868tmp"/>
+    <property name="sun.java.command" value="C:\Users\Tharun06\AppData\Local\Temp\surefire4119890928608828589\surefirebooter2177740576850032281.jar C:\Users\Tharun06\AppData\Local\Temp\surefire4119890928608828589 2021-09-28T17-57-51_272-jvmRun1 surefire15236297733489387502tmp surefire_03088941545837112792tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Tharun06\git\Selenium_Java_Projects\JenkinsTest\target\test-classes;C:\Users\Tharun06\git\Selenium_Java_Projects\JenkinsTest\target\classes;C:\Users\Tharun06\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Tharun06\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Tharun06\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Tharun06\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Tharun06\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Tharun06\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Tharun06\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Tharun06\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Tharun06\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Tharun06\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Tharun06\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Tharun06\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Tharun06\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Tharun06\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Tharun06\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Tharun06\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Tharun06\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Tharun06\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Tharun06\AppData\Local\Temp\surefire6196566107010489889\surefirebooter14604129153277427356.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tharun06\AppData\Local\Temp\surefire4119890928608828589\surefirebooter2177740576850032281.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -56,43 +56,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="getGoogleTitle" classname="com.ustglobal.JenkinsTest.GoogleTest" time="6.872">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=93.0.4577.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-6SJLI8Q&apos;, ip: &apos;192.168.225.192&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Tharun06\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a45433c873afa554423dcd473ac4166b" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=93.0.4577.82)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-6SJLI8Q', ip: '192.168.225.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Tharun06\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a45433c873afa554423dcd473ac4166b
-	at com.ustglobal.JenkinsTest.GoogleTest.getGoogleTitle(GoogleTest.java:16)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriSvter a93r.0t.i45n77.6g 3C h(rfofm5eDc0rdiav2eecr0 ad9e3a.ed05.55405e76c77e9.84167d3ac7 7d9(8a-frefsf/b5rancch-0hedadsa/45277e@{c#11035}a) odn peorta 38579
-Onley dlo5cal 5con5nec0tei6oncs 7aere 9al8low4ed.1
-P7leadse aseec htt7ps7:d98a/-r/ecfhsr/obmerdarnicvh-ehera.dchsr/o4m5i7u7m@{.o#r1g/1se3c5u})r iotny- cponosritd er3a4ti9o3ns
- Ofnolry  slugogceastli ocnso nnoenc tkieoepinng sChr omeaDrriveer  saafe.l
-lowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-CChhrromoemDerDiverr iwvaesr  stwaratsed  ssutccaerstsfeuldly. s
-uccessfully.
-Sep 28, 2021 12:31:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="getGoogleTitle" classname="com.ustglobal.JenkinsTest.GoogleTest" time="9.266">
+    <system-out><![CDATA[Title is: Google
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriStvaretirng  9C3h.r0o.me4Dr5iv7e7r .963.30. 45(7f7.f635 c(0ffd5ac02deac2e0ca0addeeaaeedd5555505e60ec67ec984717eda9c7874d9187ad-arecf7s/7brdan9c8ha-h-eardes/f45s7/7@b{#r1a1n3c5}h)- ohn epaodsr/t45 7179@2{70#1
+1O3n5l}y )l oocanl  pcoorntn e1c1t1i3on7s 
+arOe nallloyw edl.o
+Pclaela sceo nsneee hctttpsi:/o/nchsr omaedrriev era.clhlroomwieumd..org
+/sPelceuarsie tsye-ec ohnttspisd:e/r/achtrioomednrivser. fcohrro msiugugm.eorsg/tsiecournis toyn -kceeopnisindegra tiCohnrs ofomr esDurgigvesetiro nss oan kfeepieng .ChromeDr
+iver safe.
+CChrhomeDrriovmer ewasD starrtievde rs uwcacse ssstfaurltleyd. succ
+essfully.
+Sep 28, 2021 5:57:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Sep 28, 2021 12:31:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 28, 2021 5:57:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="getAmazonTitle" classname="com.ustglobal.JenkinsTest.AmazonTest" time="7.941">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=93.0.4577.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-6SJLI8Q&apos;, ip: &apos;192.168.225.192&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Tharun06\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 012d0655818ab7202268f128ac97d447" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=93.0.4577.82)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-6SJLI8Q', ip: '192.168.225.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Tharun06\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 012d0655818ab7202268f128ac97d447
-	at com.ustglobal.JenkinsTest.AmazonTest.getAmazonTitle(AmazonTest.java:16)
-]]></failure>
+  <testcase name="getAmazonTitle" classname="com.ustglobal.JenkinsTest.AmazonTest" time="13.685">
+    <system-out><![CDATA[Title is: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+]]></system-out>
   </testcase>
 </testsuite>
