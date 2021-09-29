@@ -3,12 +3,13 @@ package com.utility;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Calendar;
-
+import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+@SuppressWarnings("deprecation")
 public class ExcelUtility 
 {
 	
@@ -55,7 +56,8 @@ public class ExcelUtility
     
     
     // returns the data from a cell
-    public String getCellData(String sheetName, String colName, int rowNum) {
+    @SuppressWarnings({ "static-access" })
+	public String getCellData(String sheetName, String colName, int rowNum) {
         try {
             if (rowNum <= 0)
                 return "";
