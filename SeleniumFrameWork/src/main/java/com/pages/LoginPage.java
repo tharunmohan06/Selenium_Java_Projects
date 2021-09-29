@@ -38,6 +38,15 @@ public class LoginPage extends TestBase{
 		return new DashboardPage();
 	}
 	
+	public DashboardPage validateLogin(String username, String password) {
+		log.info("Logging into the application with valid credentials");
+		username_txt.sendKeys(username);
+		password_txt.sendKeys(password);
+		login_btn.click();
+		
+		return new DashboardPage();
+	}
+	
 	public String invalidLogin() {
 		log.info("Logging into the application with invalid credentials");
 		username_txt.sendKeys(prop.getProperty("invalidusername"));
