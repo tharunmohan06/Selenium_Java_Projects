@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-30T14:08:01.529Z",
+        "line": 3,
+        "name": "login with valid credentials",
+        "description": "",
+        "id": "orangehrm-login-functionality;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10367821400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_should_be_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141621200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6729920800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141879500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be navigated to Dashboard page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_should_be_navigated_to_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM login functionality",
+    "description": "",
+    "id": "orangehrm-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login2.feature",
+    "tags": []
+  }
+]
