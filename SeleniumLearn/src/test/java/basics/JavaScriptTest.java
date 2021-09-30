@@ -30,12 +30,12 @@ public class JavaScriptTest
 		 */
 				
 		JavascriptExecutor jse= (JavascriptExecutor) driver;
-		//jse.executeScript("window.scrollBy(0,1000)");
+		jse.executeScript("window.scrollBy(0,1000)");
 		Thread.sleep(2000);
 	
 		//this will scroll until the web element is visible
 		WebElement element= driver.findElement(By.xpath("//a[text()='Linda.Anderson']"));
-		//jse.executeScript("arguments[0].scrollIntoView(true);", element);
+		jse.executeScript("arguments[0].scrollIntoView(true);", element);
 		Thread.sleep(2000);
 		
 		//this will scroll until bottom
