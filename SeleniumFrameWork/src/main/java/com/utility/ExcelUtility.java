@@ -9,6 +9,8 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+//This is ready made code for reference
+
 @SuppressWarnings("deprecation")
 public class ExcelUtility 
 {
@@ -32,7 +34,6 @@ public class ExcelUtility
             sheet = workbook.getSheetAt(0);
             fis.close();
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
@@ -40,7 +41,6 @@ public class ExcelUtility
     
     
     // returns the row count in a sheet
-
     public int getRowCount(String sheetName) {
         int index = workbook.getSheetIndex(sheetName);
         if (index == -1)
