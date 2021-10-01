@@ -161,8 +161,7 @@ public class AmazonSearch extends baseClass
 	{
 		TakesScreenshot ts = ((TakesScreenshot) driver);
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File DestFile = new File(
-				"C:/Users/Tharun06/Documents/JavaAutomation/TDD_FrameWork/screenshot" + vString + ".png");
+		File DestFile = new File("C:/Users/Tharun06/Documents/JavaAutomation/TDD_FrameWork/screenshot" + vString + ".png");
 		FileUtils.copyFile(source, DestFile);
 		vfilepath = DestFile.getPath();
 		System.out.println("File Path :" + vfilepath);
